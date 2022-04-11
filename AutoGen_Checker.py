@@ -3,10 +3,12 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
-from undetected_chromedriver import Chrome # Please stop saying some frezee sh!t
+from undetected_chromedriver import Chrome
+import undetected_chromedriver.v2 as uc
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 # driver = Chrome()
+driver = uc.Chrome(use_subprocess=True)
 
 import time
 
@@ -41,6 +43,7 @@ def gen():
     
     ### Second Part ###
     driver.get(url_check)
+    time.sleep(7)
     driver.find_element_by_class_name("form-control").click()
     act.key_down(Keys.CONTROL).send_keys("v").key_up(Keys.CONTROL).perform()
     time.sleep(1)
@@ -52,7 +55,7 @@ def gen():
 
     ######################## X Not working part X ########################
     # content = driver.find_elements_by_xpath('//span[@class="rankingItem-value js-countable"]')[0].text
-    content = driver.find_elements(By.CSS_SELECTOR('div[@class="panel-body success"]'))
+    content = str.driver.find_elements(By.CSS_SELECTOR('div[@class="panel-body success"]'))
     act.key_down(Keys.CONTROL).send_keys("c").key_up(Keys.CONTROL).perform()
     print(content)
     ######################## X Not working part X ########################
