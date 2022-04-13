@@ -1,5 +1,8 @@
 # BIN_gen-checker
 BIN gen using selenium + checker for live, dead, unknow
+<br /><br />
+<b>Status - ❌</b>
+<br />
 
 10.04.2022 ??:00 - Not working❌<br />
 11.04.2022 19:00 - Not working❌ but CloudFlare will not bother me anymore✅<br />
