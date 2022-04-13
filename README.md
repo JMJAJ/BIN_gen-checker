@@ -10,4 +10,5 @@ BIN gen using selenium + checker for live, dead, unknow
 14.04.2022 00:40 - Not working❌ xddd.. fvck<br />
 <br />
 I'm just doing this for fun and educational purposes.. of course xd<br />
+Just want to know more about selenium and how it works<br />
 and I've never programmed in Python before.. I think lmaoo
