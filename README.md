@@ -8,7 +8,7 @@ BIN gen using selenium + checker for live, dead, unknow
 11.04.2022 19:00 - Not working❌ but CloudFlare will not bother me anymore✅<br />
 11.04.2022 21:00 - working✅ without saving CCs into the file<br />
 14.04.2022 00:40 - Not working❌ xddd.. fvck<br />
-28.04.2022 00:40 - updated Chromium to 101<br />
+28.04.2022 18:30 - updated Chromium to 101<br />
 <br />
 I'm just doing this for fun and educational purposes.. of course xd<br />
 Just want to know more about selenium and how it works<br />
